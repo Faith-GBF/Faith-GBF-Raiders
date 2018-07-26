@@ -639,6 +639,10 @@ function PlaySoundNotif( data ) {
 								funfNotif.volume = ( individualSettings[ i ].settings.soundNotifVolume / 100 );
 								funfNotif.play();
 								break;
+							case "sube-sube":
+								subeNotif.volume = ( individualSettings[ i ].settings.soundNotifVolume / 100 );
+								subeNotif.play();
+								break;
 						}
 						logger.AddLog( "info", `Played sound notif for: ${data.room}`, settings.notification );
 					} catch ( error ) {
