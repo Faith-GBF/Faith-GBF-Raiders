@@ -392,10 +392,10 @@ body, html {
 }
 
 .bg {
-	background-image: url('https://www.billboard.com/files/styles/article_main_image/public/media/02-Luis-Fonsi-2017-cr-Omar-Cruz-billboard-1548.jpg);
+	background-image: url('assets/misc/fonsi2.jpg');
 	height: 100%;
 	background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-	opactiy: 0.1;
+	opacity: 0.1;
 }
