@@ -94,6 +94,7 @@ function CreateSettingsModalFrame() {
 	result += '<div class="item" data-value="funf-dancho">GBF - Funf - DANCHO!</div>';
 	result += '<div class="item" data-value="titanfall-droppingnow">Titanfall - Dropping Now</div>';
 	result += '<div class="item" data-value="sakura-hoeeeee">GBF - Sakura (Event) - HOEEEEE</div>';
+	result += '<div class="item" data-value="sube-sube">Sube, Sube</div>';
 	result += '<div class="item" data-value="alarm-foghorn">Alarm - Foghorn</div>';
 	result += '<div class="item" data-value="alarm-submarine">Alarm - Submarine</div>';
 	result += '<div class="item" data-value="scifi-sweep">Sci Fi Sweep</div>';
@@ -108,7 +109,6 @@ function CreateSettingsModalFrame() {
 	result += '<div class="item" data-value="zap-3tone">Zap - Three Tone</div>';
 	result += '<div class="item" data-value="zap-2tone">Jingle - Two Tone</div>';
 	result += '<div class="item" data-value="magic-spell">Magic Spell</div>';
-	result += '<div class="item" data-value="sube-sube">(Sube, Sube)</div>';
 	result += '<div class="item" data-value="custom">Custom</div>';
 	result += '</div></div></span>';
 	result += '<span id="modal-sound-volume-control" class="slider-control-disabled"><span class="slider-title">Sound Notification Volume</span><input id="modal-sound-volume-slider" class="slider-range slider" type="range" min="0" max="100" value="100" disabled></span>';

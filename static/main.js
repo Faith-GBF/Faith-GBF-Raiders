@@ -8,6 +8,7 @@ var noTwitter = false;
 
 var funfNotif = new Audio( '/assets/sounds/funf.mp3' );
 var beepsSoundNotif = new Audio( '/assets/sounds/Beeps_Appear.wav' );
+var subeNotif = new Audio( '/assets/sounds/Sube_Sube.mp3' );
 var lilyRingRingSoundNotif = new Audio( '/assets/sounds/Lily_Event_RingRing.mp3' );
 var andiraOniichanSoundNotif = new Audio( '/assets/sounds/Andira_Oniichan.mp3' );
 var titanfallDroppingNowSoundNotif = new Audio( '/assets/sounds/Titanfall_DroppingNow.mp3' );
@@ -26,7 +27,6 @@ var jingleSteel16SoundNotif = new Audio( '/assets/sounds/jingles_STEEL16.ogg' );
 var magicSpellSoundNotif = new Audio( '/assets/sounds/MAGIC_SPELL_Attacking.wav' );
 var zapThreeToneSoundNotif = new Audio( '/assets/sounds/zapThreeToneUp.mp3' );
 var zapTwoToneSoundNotif = new Audio( '/assets/sounds/zapTwoTone2.mp3' );
-var subeNotif = new Audio( '/assets/sounds/Sube_Sube.mp3' );
 var customSoundNotif = new Audio();
 
 var settings = {
@@ -484,6 +484,10 @@ function PlaySoundNotif( data ) {
 					maleHurryUpSoundNotif.volume = ( settings.notification.soundNotifVolume / 100 );
 					maleHurryUpSoundNotif.play();
 					break;
+				case "sube-sube":
+					subeNotif.volume = ( settings.notification.soundNotifVolume / 100 );
+					subeNotif.play();
+					break;
 				case "jingle-nes":
 					jingleNESSoundNotif.volume = ( settings.notification.soundNotifVolume / 100 );
 					jingleNESSoundNotif.play();
@@ -540,10 +544,7 @@ function PlaySoundNotif( data ) {
 					funfNotif.volume = ( settings.notification.soundNotifVolume / 100 );
 					funfNotif.play();
 					break;
-				case "sube-sube":
-					subeNotif.volume = ( settings.notification.soundNotifVolume / 100 );
-					subeNotif.play();
-					break;
+				
 			}
 			logger.AddLog( "info", `Played sound notif for: ${data.room}`, settings.notification );
 		} catch ( error ) {
@@ -599,6 +600,10 @@ function PlaySoundNotif( data ) {
 								jingleSteel16SoundNotif.volume = ( individualSettings[ i ].settings.soundNotifVolume / 100 );
 								jingleSteel16SoundNotif.play();
 								break;
+							case "sube-sube":
+								subeNotif.volume = ( individualSettings[ i ].settings.soundNotifVolume / 100 );
+								subeNotif.play();
+								break;
 							case "zap-3tone":
 								zapThreeToneSoundNotif.volume = ( individualSettings[ i ].settings.soundNotifVolume / 100 );
 								zapThreeToneSoundNotif.play();
@@ -639,10 +644,7 @@ function PlaySoundNotif( data ) {
 								funfNotif.volume = ( individualSettings[ i ].settings.soundNotifVolume / 100 );
 								funfNotif.play();
 								break;
-							case "sube-sube":
-								subeNotif.volume = ( individualSettings[ i ].settings.soundNotifVolume / 100 );
-								subeNotif.play();
-								break;
+							
 						}
 						logger.AddLog( "info", `Played sound notif for: ${data.room}`, settings.notification );
 					} catch ( error ) {
