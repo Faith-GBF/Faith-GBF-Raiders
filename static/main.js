@@ -26,6 +26,7 @@ var jingleSteel16SoundNotif = new Audio( '/assets/sounds/jingles_STEEL16.ogg' );
 var magicSpellSoundNotif = new Audio( '/assets/sounds/MAGIC_SPELL_Attacking.wav' );
 var zapThreeToneSoundNotif = new Audio( '/assets/sounds/zapThreeToneUp.mp3' );
 var zapTwoToneSoundNotif = new Audio( '/assets/sounds/zapTwoTone2.mp3' );
+var subeNotif = new Audio( '/assets/sounds/Sube-Sube.mp3' );
 var customSoundNotif = new Audio();
 
 var settings = {
@@ -538,6 +539,10 @@ function PlaySoundNotif( data ) {
 				case "funf-dancho":
 					funfNotif.volume = ( settings.notification.soundNotifVolume / 100 );
 					funfNotif.play();
+					break;
+				case "sube-sube":
+					subeNotif.volume = ( settings.notification.soundNotifVolume / 100 );
+					subeNotif.play();
 					break;
 			}
 			logger.AddLog( "info", `Played sound notif for: ${data.room}`, settings.notification );
