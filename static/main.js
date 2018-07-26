@@ -26,7 +26,7 @@ var jingleSteel16SoundNotif = new Audio( '/assets/sounds/jingles_STEEL16.ogg' );
 var magicSpellSoundNotif = new Audio( '/assets/sounds/MAGIC_SPELL_Attacking.wav' );
 var zapThreeToneSoundNotif = new Audio( '/assets/sounds/zapThreeToneUp.mp3' );
 var zapTwoToneSoundNotif = new Audio( '/assets/sounds/zapTwoTone2.mp3' );
-var subeNotif = new Audio( '/assets/sounds/Sube-Sube.mp3' );
+var subeNotif = new Audio( '/assets/sounds/Sube_Sube.mp3' );
 var customSoundNotif = new Audio();
 
 var settings = {
