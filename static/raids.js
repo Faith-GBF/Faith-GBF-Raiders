@@ -71,7 +71,7 @@ function CreateHorizontalCompactRaidRow( data ) {
 		joinButton.classList.add( "ui", "positive", "button", "right", "labeled", "icon", "toggle", "join-raid-btn" );
 	}
 	joinButton.id = data.id + '-btn';
-	joinButton.innerHTML = 'Join Raid<i class="material-icons">exit_to_app</i>';
+	joinButton.innerHTML = '<i class="material-icons" margin="auto">exit_to_app</i>';
 	try {
 		joinTD.appendChild( joinButton );
 		newLine.appendChild( imageTD );
@@ -120,7 +120,7 @@ function CreateHorizontalNormalRaidRow( data ) {
 		joinButton.classList.add( "ui", "positive", "button", "right", "labeled", "icon", "toggle", "join-raid-btn" );
 	}
 	joinButton.id = data.id + '-btn';
-	joinButton.innerHTML = 'Join Raid<i class="material-icons">exit_to_app</i>';
+	joinButton.innerHTML = '<i class="material-icons" margin="auto">exit_to_app</i>';
 	try {
 		joinTD.appendChild( joinButton );
 		newLine.appendChild( imageTD );
@@ -184,7 +184,7 @@ function CreateHorizontalFullRaidRow( data ) {
 		joinButton.classList.add( "ui", "positive", "button", "right", "labeled", "icon", "toggle", "join-raid-btn" );
 	}
 	joinButton.id = data.id + '-btn';
-	joinButton.innerHTML = 'Join Raid<i class="material-icons">exit_to_app</i>';
+	joinButton.innerHTML = '<i class="material-icons" margin="auto">exit_to_app</i>';
 	try {
 		joinTD.appendChild( joinButton );
 		newLine.appendChild( imageTD );
@@ -227,7 +227,7 @@ function CreateVerticalCompactRaidRow( data ) {
 		joinButton.classList.add( "ui", "positive", "button", "right", "labeled", "icon", "toggle", "join-raid-btn" );
 	}
 	joinButton.id = data.id + '-btn';
-	joinButton.innerHTML = 'Join Raid<i class="material-icons">exit_to_app</i>';
+	joinButton.innerHTML = '<i class="material-icons" margin="auto">exit_to_app</i>';
 	try {
 		joinTD.appendChild( joinButton );
 		newLine.appendChild( idTD );
@@ -273,7 +273,7 @@ function CreateVerticalNormalRaidRow( data ) {
 		joinButton.classList.add( "ui", "positive", "button", "right", "labeled", "icon", "toggle", "join-raid-btn" );
 	}
 	joinButton.id = data.id + '-btn';
-	joinButton.innerHTML = 'Join Raid<i class="material-icons">exit_to_app</i>';
+	joinButton.innerHTML = '<i class="material-icons" margin="auto">exit_to_app</i>';
 	try {
 		joinTD.appendChild( joinButton );
 		newLine.appendChild( idTD );
@@ -323,7 +323,7 @@ function CreateVerticalFullRaidRow( data ) {
 		joinButton.classList.add( "ui", "positive", "button", "right", "labeled", "icon", "toggle", "join-raid-btn" );
 	}
 	joinButton.id = data.id + '-btn';
-	joinButton.innerHTML = 'Join Raid<i class="material-icons">exit_to_app</i>';
+	joinButton.innerHTML = '<i class="material-icons" margin="auto">exit_to_app</i>';
 	try {
 		joinTD.appendChild( joinButton );
 		newLine.appendChild( idTD );
