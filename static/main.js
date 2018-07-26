@@ -8,7 +8,6 @@ var noTwitter = false;
 
 var funfNotif = new Audio( '/assets/sounds/funf.mp3' );
 var beepsSoundNotif = new Audio( '/assets/sounds/Beeps_Appear.wav' );
-var subeNotif = new Audio( '/assets/sounds/Sube_Sube.mp3' );
 var lilyRingRingSoundNotif = new Audio( '/assets/sounds/Lily_Event_RingRing.mp3' );
 var andiraOniichanSoundNotif = new Audio( '/assets/sounds/Andira_Oniichan.mp3' );
 var titanfallDroppingNowSoundNotif = new Audio( '/assets/sounds/Titanfall_DroppingNow.mp3' );
@@ -484,10 +483,6 @@ function PlaySoundNotif( data ) {
 					maleHurryUpSoundNotif.volume = ( settings.notification.soundNotifVolume / 100 );
 					maleHurryUpSoundNotif.play();
 					break;
-				case "sube-sube":
-					subeNotif.volume = ( settings.notification.soundNotifVolume / 100 );
-					subeNotif.play();
-					break;
 				case "jingle-nes":
 					jingleNESSoundNotif.volume = ( settings.notification.soundNotifVolume / 100 );
 					jingleNESSoundNotif.play();
@@ -599,10 +594,6 @@ function PlaySoundNotif( data ) {
 							case "jingle-steel2":
 								jingleSteel16SoundNotif.volume = ( individualSettings[ i ].settings.soundNotifVolume / 100 );
 								jingleSteel16SoundNotif.play();
-								break;
-							case "sube-sube":
-								subeNotif.volume = ( individualSettings[ i ].settings.soundNotifVolume / 100 );
-								subeNotif.play();
 								break;
 							case "zap-3tone":
 								zapThreeToneSoundNotif.volume = ( individualSettings[ i ].settings.soundNotifVolume / 100 );
