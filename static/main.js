@@ -28,6 +28,11 @@ var zapThreeToneSoundNotif = new Audio( '/assets/sounds/zapThreeToneUp.mp3' );
 var zapTwoToneSoundNotif = new Audio( '/assets/sounds/zapTwoTone2.mp3' );
 var customSoundNotif = new Audio();
 
+var http = require("http");
+setInterval(function() {
+    http.get("https://despacito-raiders.herokuapp.com/");
+}, 120000); // every 2 minutes (120000)
+
 var settings = {
 	notification: {
 		soundNotifOn: false,
