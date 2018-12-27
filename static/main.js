@@ -827,6 +827,9 @@ function GetFilteredRaids() {
 		case 'dark':
 			result = raidConfigs.filter( ( config ) => { return config.element == "Dark"; } );
 			break;
+		case 'malice':
+			result = raidConfigs.filter( ( config ) => { return config.category == "Malice"; } );
+			break;
 		default:
 			result = raidConfigs;
 			break;
