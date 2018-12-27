@@ -1270,4 +1270,21 @@
 	"image": "/assets/raids/BattleRaid_Snow_White_Nightmare100.png",
 	"category": "Unite and Fight",
 	"element": "Water"
-}]
+},
+{
+	"japanese": "Lv200 アーカーシャ",
+	"english": "Lvl 200 Akasha",
+	"room": "lvl200akasha",
+	"image": "/assets/raids/BattleRaid_Akasha_Impossible",
+	"category": "Impossible Nightmare",
+	"element": "Light"
+},
+{
+	"japanese": "Lv150 ティアマト・マリス",
+	"english": "Lvl 150 Tiamat Malice",
+	"room": "lvl150tiamatmalice",
+	"image": "/assets/raids/BattleRaid_Tiamat_Malice_Impossible",
+	"category": "Impossible Malice",
+	"element": "Wind"
+},
+
