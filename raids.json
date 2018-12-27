@@ -1275,7 +1275,7 @@
 	"japanese": "Lv200 アーカーシャ",
 	"english": "Lvl 200 Akasha",
 	"room": "lvl200akasha",
-	"image": "/assets/raids/BattleRaid_Akasha_Impossible",
+	"image": "/assets/raids/BattleRaid_Akasha_Impossible.png",
 	"category": "Impossible Nightmare",
 	"element": "Light"
 },
@@ -1283,7 +1283,7 @@
 	"japanese": "Lv150 ティアマト・マリス",
 	"english": "Lvl 150 Tiamat Malice",
 	"room": "lvl150tiamatmalice",
-	"image": "/assets/raids/BattleRaid_Tiamat_Malice_Impossible",
+	"image": "/assets/raids/BattleRaid_Tiamat_Malice_Impossible.png",
 	"category": "Impossible Malice",
 	"element": "Wind"
 }]
